@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 
 #Load the iris dataset using the "datasets.load_iris()" function and assign the data and target variables to "X" and "Y", respectively.
 
-data = pd.read_csv(r'C:\Users\USER\Documents\Datascience\newproject\churners\iris.data.csv')
+data = pd.read_csv('iris.data.csv')
 
 
 data.head()
